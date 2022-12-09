@@ -1,0 +1,45 @@
+﻿<Window x:Class="PY_111_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PY_111_WPF"
+        mc:Ignorable="d"
+        Title="Lol" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition MinWidth="222" Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition MaxHeight="200"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button 
+                Grid.Row="1" 
+                Grid.RowSpan="2"
+                Grid.Column="2" 
+                Background="Aqua" 
+                Content="Press1" 
+                FontSize="50" 
+                Click="Button_Click"></Button>
+        <Button Background="Green" 
+                Content="Press2" 
+                FontSize="50" 
+                Grid.Row="0" 
+                Grid.Column="1" 
+                Click="Button_Click_1"/>
+        <Button Background="Yellow" 
+                Margin="20 ,10,5,40"
+                Grid.ColumnSpan="2"
+                Content="Press2" 
+                FontSize="50" 
+                Grid.Row="1" 
+                Grid.Column="0"/>
+        <TextBox Name="LoginTb" Grid.Row="0" Grid.Column="2" TextWrapping="Wrap"></TextBox>
+
+    </Grid>
+</Window>
