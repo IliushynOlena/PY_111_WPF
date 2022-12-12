@@ -1,0 +1,20 @@
+﻿<Window x:Class="_04_List_Controls_Collection_Binding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_04_List_Controls_Collection_Binding"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Button Width="300" Margin="10" Click="Button_Click" >Add new Person</Button>
+        <Button Width="300" Margin="10" Click="Button_Click_1" >Remove Selected Person</Button>
+        <Button Width="300" Margin="10" Click="Button_Click_2" >Clear all people</Button>
+        <ComboBox Height="30" Width="300" Margin="10" Name="comboBox"
+                  IsEditable="True" IsReadOnly="True" SelectionChanged="comboBox_SelectionChanged">
+            <ComboBoxItem Background="Pink">Red</ComboBoxItem>
+            <ComboBoxItem IsSelected="True" >Green</ComboBoxItem>
+            <ComboBoxItem>Blue</ComboBoxItem>
+        </ComboBox>
+    </StackPanel>
+</Window>
