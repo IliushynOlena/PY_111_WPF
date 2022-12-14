@@ -9,9 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_ Containers_Layout_Posit
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_Controls_Progres_Try_Menu", "03_Controls_Progres_Try_Menu\03_Controls_Progres_Try_Menu.csproj", "{4B36FF5F-BFFD-42FF-ADBE-7A77B6AD900C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_List_Controls_Collection_Binding", "04_List_Controls_Collection_Binding\04_List_Controls_Collection_Binding.csproj", "{910D04F1-524B-47F1-8317-FD63ADAF2A1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_List_Controls_Collection_Binding", "04_List_Controls_Collection_Binding\04_List_Controls_Collection_Binding.csproj", "{910D04F1-524B-47F1-8317-FD63ADAF2A1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_ListBox_Bindings", "05_ListBox_Bindings\05_ListBox_Bindings.csproj", "{58F53EF5-EB26-4565-9327-C968D9A3E05A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_ListBox_Bindings", "05_ListBox_Bindings\05_ListBox_Bindings.csproj", "{58F53EF5-EB26-4565-9327-C968D9A3E05A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Data Bindings_Data_Context", "06_Data Bindings_Data_Context\06_Data Bindings_Data_Context.csproj", "{B10F59D5-A638-457B-9D37-32009B821239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_BindingDataContext", "07_BindingDataContext\07_BindingDataContext.csproj", "{14667CA8-E770-4E3A-B390-6B91573BF1E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_PhoneBook_Bindings", "08_PhoneBook_Bindings\08_PhoneBook_Bindings.csproj", "{6D086697-BCA1-4153-AB4B-AA3D9598255B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{58F53EF5-EB26-4565-9327-C968D9A3E05A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58F53EF5-EB26-4565-9327-C968D9A3E05A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58F53EF5-EB26-4565-9327-C968D9A3E05A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B10F59D5-A638-457B-9D37-32009B821239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B10F59D5-A638-457B-9D37-32009B821239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B10F59D5-A638-457B-9D37-32009B821239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B10F59D5-A638-457B-9D37-32009B821239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14667CA8-E770-4E3A-B390-6B91573BF1E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14667CA8-E770-4E3A-B390-6B91573BF1E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14667CA8-E770-4E3A-B390-6B91573BF1E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14667CA8-E770-4E3A-B390-6B91573BF1E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D086697-BCA1-4153-AB4B-AA3D9598255B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D086697-BCA1-4153-AB4B-AA3D9598255B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D086697-BCA1-4153-AB4B-AA3D9598255B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D086697-BCA1-4153-AB4B-AA3D9598255B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
