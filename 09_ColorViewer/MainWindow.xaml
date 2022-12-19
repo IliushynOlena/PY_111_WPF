@@ -1,0 +1,61 @@
+﻿<Window x:Class="_09_ColorViewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_09_ColorViewer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <UniformGrid Rows="2">
+        <DockPanel >
+            <Button DockPanel.Dock="Bottom" Width="50" HorizontalAlignment="Left" Margin="5">Add</Button>
+            <Button DockPanel.Dock="Bottom" Width="50" HorizontalAlignment="Left" Margin="5">Delete</Button>
+            <Border DockPanel.Dock="Right" Width="180" CornerRadius="30" Margin="5">
+                <Border.Background>
+                    <SolidColorBrush Color="{Binding Color}">
+                        
+                    </SolidColorBrush>
+                </Border.Background>
+                
+            </Border>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="4*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Row="0" Grid.Column="0" FontFamily="Arial" FontSize="20" 
+                           HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5">Alpha: 
+                <Run Text="{Binding A}"></Run></TextBlock>
+                <TextBlock Grid.Row="1" Grid.Column="0" FontFamily="Arial" FontSize="20" 
+                           HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5">Red: 
+                    <Run Text="{Binding R}" ></Run></TextBlock>
+                <TextBlock Grid.Row="2" Grid.Column="0" FontFamily="Arial" FontSize="20" 
+                           HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5">Green: 
+                    <Run Text="{Binding G}" ></Run></TextBlock>
+                <TextBlock Grid.Row="3" Grid.Column="0" FontFamily="Arial" FontSize="20" 
+                           HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5">Blue: 
+                     <Run Text="{Binding B}"></Run></TextBlock>
+
+                <Slider Name ="aSlider" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" Margin="5" 
+                        Maximum="255" TickFrequency="1" Value="{Binding A}" />
+                <Slider Name ="rSlider" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Margin="5" 
+                         Maximum="255"  Value="{Binding R}"></Slider>
+                <Slider Name ="gSlider" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" Margin="5" 
+                         Maximum="255"  Value="{Binding G}"></Slider>
+                <Slider Name ="bSlider" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" Margin="5" 
+                        Maximum="255"  Value="{Binding B}"></Slider>
+            </Grid>
+        </DockPanel>
+        <ListBox>
+            
+        </ListBox>
+       
+    </UniformGrid>
+</Window>
