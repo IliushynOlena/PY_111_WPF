@@ -1,0 +1,27 @@
+﻿<Window x:Class="_10_Styles_Triggers_Animations.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_10_Styles_Triggers_Animations"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        Background="{DynamicResource backColor}">
+    <Window.Resources>
+        <SolidColorBrush x:Key="brush1" Color="Red"></SolidColorBrush>
+        <SolidColorBrush x:Key="backColor" Color="Bisque"></SolidColorBrush>
+        <LinearGradientBrush x:Key="gradient">
+            <GradientStop Color="White"></GradientStop>
+            <GradientStop Color="DarkCyan" Offset="1"></GradientStop>
+        </LinearGradientBrush>
+    </Window.Resources>
+    <StackPanel>
+        <StackPanel.Resources>
+            
+        </StackPanel.Resources>
+        <Button Background="{StaticResource gradient}">One</Button>
+        <Button Background="{StaticResource gradient}">Two</Button>
+        <Button Background="{StaticResource brush1}">Three</Button>
+        <Button Background="{StaticResource backColor}" Click="Button_Click">Change</Button>
+    </StackPanel>
+</Window>

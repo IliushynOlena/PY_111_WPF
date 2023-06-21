@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_BindingDataContext", "07
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_PhoneBook_Bindings", "08_PhoneBook_Bindings\08_PhoneBook_Bindings.csproj", "{6D086697-BCA1-4153-AB4B-AA3D9598255B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_ColorViewer", "09_ColorViewer\09_ColorViewer.csproj", "{603AC66D-232F-448C-BE2A-42225D27049B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_ColorViewer", "09_ColorViewer\09_ColorViewer.csproj", "{603AC66D-232F-448C-BE2A-42225D27049B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Styles_Triggers_Animations", "10_Styles_Triggers_Animations\10_Styles_Triggers_Animations.csproj", "{74D53E45-3B5D-428A-856F-9127F92150AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{603AC66D-232F-448C-BE2A-42225D27049B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{603AC66D-232F-448C-BE2A-42225D27049B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{603AC66D-232F-448C-BE2A-42225D27049B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74D53E45-3B5D-428A-856F-9127F92150AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74D53E45-3B5D-428A-856F-9127F92150AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74D53E45-3B5D-428A-856F-9127F92150AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74D53E45-3B5D-428A-856F-9127F92150AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
